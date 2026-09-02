@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arshiya Hera - Computer Science and Engineering Student at Islamic University of Technology (IUT). Portfolio showcasing software development, C/C++ game projects, JavaFX applications, and algorithms.">
+  <meta name="keywords" content="Arshiya Hera, Computer Science, IUT, Software Development, Game Development, Java, C, C++, Algorithms">
+  <meta name="author" content="Arshiya Hera">
+  <title>Arshiya Hera | Computer Science Student & Software Developer</title>
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar (Light / Off-White Glassmorphism with Purple AH Badge) -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Arshiya Hera Home">
+        <div class="logo-badge">AH</div>
+        <span class="brand-name">AH<span class="brand-dot">.</span>dev</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#exploring" class="nav-link">Exploring</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline">Let's Connect</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Open to Internships &amp; Collaborations</span>
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Arshiya Hera</span>.<br>
+            Computer Science Student Building Creative &amp; Practical Software.
+          </h1>
+          <p class="hero-subtitle">
+            I'm a Computer Science and Engineering student at Islamic University of Technology (IUT), interested in software development, algorithms, and building interactive applications. I enjoy turning ideas into practical projects while continuously exploring new technologies and improving my problem-solving skills.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>Explore Projects</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost btn-lg">
+              <span>Get in Touch</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tag-label">Specialties:</span>
+            <span class="hero-mini-tag">Software Development</span>
+            <span class="hero-mini-tag">Algorithms &amp; Problem Solving</span>
+            <span class="hero-mini-tag">Game Development</span>
+            <span class="hero-mini-tag">Java / C / C++</span>
+          </div>
+        </div>
+
+        <!-- Hero Visual with Drifting Gradient Blob & Rounded-Square Frame -->
+        <div class="hero-visual">
+          <!-- Animated Drifting Gradient Blob -->
+          <div class="gradient-blob-container" aria-hidden="true">
+            <div class="gradient-blob blob-primary"></div>
+            <div class="gradient-blob blob-secondary"></div>
+          </div>
+
+          <!-- Rounded-Square Photo Frame -->
+          <div class="photo-frame-wrapper">
+            <div class="photo-frame">
+              <img src="assets/profile.jpg" alt="Portrait of Arshiya Hera" class="hero-photo" width="460" height="460">
+              <div class="photo-overlay-badge">
+                <div class="badge-icon">⚡</div>
+                <div class="badge-text">
+                  <strong>CSE Student</strong>
+                  <span>Always learning &amp; building</span>
+                </div>
+              </div>
+            </div>
+            <!-- Decorative Accent Border Frame -->
+            <div class="frame-accent-border" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Stat Cards Straddling the Hero Bottom Edge into Next Section -->
+      <div class="hero-straddle-container">
+        <div class="container">
+          <div class="stat-cards-grid">
+            <!-- Stat Card 1 -->
+            <div class="stat-card" data-stat="semester">
+              <div class="stat-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+              </div>
+              <div class="stat-data">
+                <div class="stat-number"><span class="counter" data-target="4">4</span><span class="stat-unit">th</span></div>
+                <div class="stat-label">Semester</div>
+                <div class="stat-subtext">B.Sc. in Computer Science &amp; Engineering — IUT</div>
+              </div>
+            </div>
+
+            <!-- Stat Card 2 -->
+            <div class="stat-card" data-stat="projects">
+              <div class="stat-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16.5 9.4 7.55 4.24a1.78 1.78 0 0 0-2.5 1.55v12.42a1.78 1.78 0 0 0 2.5 1.55L16.5 14.6a1.78 1.78 0 0 0 0-3.2z"/>
+                  <path d="m21 12-4.5 2.6V9.4z"/>
+                </svg>
+              </div>
+              <div class="stat-data">
+                <div class="stat-number"><span class="counter" data-target="5">5</span><span class="stat-unit">+</span></div>
+                <div class="stat-label">Projects</div>
+                <div class="stat-subtext">Games, software systems &amp; academic projects</div>
+              </div>
+            </div>
+
+            <!-- Stat Card 3 -->
+            <div class="stat-card" data-stat="technologies">
+              <div class="stat-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </div>
+              <div class="stat-data">
+                <div class="stat-number"><span class="counter" data-target="8">8</span><span class="stat-unit">+</span></div>
+                <div class="stat-label">Technologies</div>
+                <div class="stat-subtext">Programming, databases, frameworks &amp; dev tools</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section with 3 Interactive Tabs -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Biography &amp; Mindset</span>
+          <h2 class="section-title">Get To Know My Story</h2>
+          <p class="section-description">
+            Passionate about turning concepts into working software, exploring algorithms, and designing engaging interactive applications.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <!-- Tab Navigation -->
+          <div class="tab-controls" role="tablist" aria-label="About Sections">
+            <button class="tab-btn active" role="tab" aria-selected="true" data-tab="overview" id="tab-overview">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+              Overview
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="philosophy" id="tab-philosophy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              Engineering Philosophy
+            </button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="highlights" id="tab-highlights">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              Key Highlights
+            </button>
+          </div>
+
+          <!-- Tab Contents -->
+          <div class="tab-contents">
+            <!-- Tab 1: Overview -->
+            <div class="tab-pane active" id="pane-overview" role="tabpanel" aria-labelledby="tab-overview">
+              <div class="about-grid">
+                <div class="about-text-col">
+                  <h3 class="tab-heading">Building practical, creative software through curiosity &amp; code</h3>
+                  <p>
+                    I am a Computer Science and Engineering student at the Islamic University of Technology (IUT). My interests include software development, algorithms, game development, and designing systems that solve practical problems. Through academic and personal projects, I enjoy experimenting with different technologies and turning concepts into working applications.
+                  </p>
+                  <p>
+                    Whether engineering a custom game engine architecture in C++, building interactive games in C with Raylib, or integrating database-driven desktop applications with JavaFX and MySQL, I focus on clean design, modularity, and continuous skill refinement.
+                  </p>
+                  <div class="about-quick-facts">
+                    <div class="fact-item">
+                      <span class="fact-title">Location</span>
+                      <span class="fact-value">Bangladesh</span>
+                    </div>
+                    <div class="fact-item">
+                      <span class="fact-title">University</span>
+                      <span class="fact-value">Islamic University of Technology (IUT)</span>
+                    </div>
+                    <div class="fact-item">
+                      <span class="fact-title">Current Status</span>
+                      <span class="fact-value">B.Sc. in CSE &bull; 4th Semester</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-feature-box">
+                  <h4>Core Competency Pillars</h4>
+                  <ul class="feature-list">
+                    <li>
+                      <div class="feature-dot"></div>
+                      <div>
+                        <strong>Software Development</strong>
+                        <p>Building practical applications using languages such as C, C++, and Java.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="feature-dot"></div>
+                      <div>
+                        <strong>Algorithms &amp; Problem Solving</strong>
+                        <p>Strong interest in data structures, algorithms, competitive programming, and computational problem solving.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="feature-dot"></div>
+                      <div>
+                        <strong>Interactive Application Development</strong>
+                        <p>Experience exploring game development, JavaFX applications, and interactive software projects.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 2: Philosophy -->
+            <div class="tab-pane" id="pane-philosophy" role="tabpanel" aria-labelledby="tab-philosophy">
+              <div class="philosophy-grid">
+                <div class="philosophy-card">
+                  <div class="philo-num">01</div>
+                  <h4>Simplicity over Complexity</h4>
+                  <p>Prefer clear, understandable solutions instead of unnecessary complexity. Code should be readable, well-structured, and purposeful.</p>
+                </div>
+                <div class="philosophy-card">
+                  <div class="philo-num">02</div>
+                  <h4>Learn by Building</h4>
+                  <p>Turn theoretical concepts into working projects to understand them more deeply. Practical implementation cements foundational knowledge.</p>
+                </div>
+                <div class="philosophy-card">
+                  <div class="philo-num">03</div>
+                  <h4>Continuous Curiosity</h4>
+                  <p>Keep exploring new technologies, ideas, and ways to improve. Every project is an opportunity to learn a better pattern or technique.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 3: Highlights -->
+            <div class="tab-pane" id="pane-highlights" role="tabpanel" aria-labelledby="tab-highlights">
+              <div class="highlights-list">
+                <div class="highlight-row">
+                  <div class="highlight-badge">Academic</div>
+                  <div class="highlight-info">
+                    <h4>Computer Science &amp; Engineering Student at IUT</h4>
+                    <p>Pursuing undergraduate studies at Islamic University of Technology, completing rigorous coursework in algorithms, OOP, databases, and systems.</p>
+                  </div>
+                </div>
+                <div class="highlight-row">
+                  <div class="highlight-badge">Projects</div>
+                  <div class="highlight-info">
+                    <h4>Experience Building Academic Software &amp; Game Projects</h4>
+                    <p>Developed practical projects including "Academic Apocalypse" (C &amp; Raylib), "Aetna Game Engine" (C++), and "CarbonDraw" (Java &amp; JavaFX).</p>
+                  </div>
+                </div>
+                <div class="highlight-row">
+                  <div class="highlight-badge">Focus</div>
+                  <div class="highlight-info">
+                    <h4>Passionate About Algorithms &amp; Interactive Applications</h4>
+                    <p>Dedicated to regular algorithmic problem solving, clean system analysis, and interactive application design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-description">
+            A comprehensive overview of programming languages, frontend/desktop frameworks, databases, and core computer science fundamentals.
+          </p>
+
+          <!-- Skill Filter Pills -->
+          <div class="skills-filter-group" role="tablist">
+            <button class="filter-pill active" data-skill-filter="all">All Skills</button>
+            <button class="filter-pill" data-skill-filter="languages">Languages</button>
+            <button class="filter-pill" data-skill-filter="frontend">Frontend &amp; UI</button>
+            <button class="filter-pill" data-skill-filter="backend">Backend &amp; DB</button>
+            <button class="filter-pill" data-skill-filter="tools">Tools</button>
+            <button class="filter-pill" data-skill-filter="fundamentals">Core CS</button>
+          </div>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-purple"><span class="skill-code">C</span></div>
+              <div class="skill-title-wrap">
+                <h4>C</h4>
+                <span class="skill-badge">Core Language</span>
+              </div>
+            </div>
+            <p class="skill-desc">Procedural programming, memory management, pointers, and 2D game development with Raylib.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-violet"><span class="skill-code">C++</span></div>
+              <div class="skill-title-wrap">
+                <h4>C++</h4>
+                <span class="skill-badge">Core Language</span>
+              </div>
+            </div>
+            <p class="skill-desc">Object-Oriented Programming, custom game engine architecture, STL, and algorithmic problem solving.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 86%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-indigo"><span class="skill-code">JV</span></div>
+              <div class="skill-title-wrap">
+                <h4>Java</h4>
+                <span class="skill-badge">Core Language</span>
+              </div>
+            </div>
+            <p class="skill-desc">Robust object-oriented development, desktop GUI creation with JavaFX, and JDBC database connectivity.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-purple"><span class="skill-code">JS</span></div>
+              <div class="skill-title-wrap">
+                <h4>JavaScript</h4>
+                <span class="skill-badge">Web Language</span>
+              </div>
+            </div>
+            <p class="skill-desc">Dynamic DOM manipulation, event handling, responsive interactions, and client-side web logic.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 80%;"></div></div>
+          </div>
+
+          <!-- Frontend & UI -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-indigo"><span class="skill-code">JFX</span></div>
+              <div class="skill-title-wrap">
+                <h4>JavaFX &amp; FXML</h4>
+                <span class="skill-badge">Desktop UI</span>
+              </div>
+            </div>
+            <p class="skill-desc">Desktop UI layout design, scene builders, controller bindings, and custom CSS styling for Java applications.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 86%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-violet"><span class="skill-code">WEB</span></div>
+              <div class="skill-title-wrap">
+                <h4>HTML5 &amp; CSS3</h4>
+                <span class="skill-badge">Frontend</span>
+              </div>
+            </div>
+            <p class="skill-desc">Semantic document structure, CSS Grid, Flexbox, responsive layouts, and modern visual design.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-purple"><span class="skill-code">RWD</span></div>
+              <div class="skill-title-wrap">
+                <h4>Responsive Web Design</h4>
+                <span class="skill-badge">Design</span>
+              </div>
+            </div>
+            <p class="skill-desc">Creating fluid, mobile-first, and cross-browser accessible interfaces that adapt across all devices.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 88%;"></div></div>
+          </div>
+
+          <!-- Backend & DB -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-indigo"><span class="skill-code">SQL</span></div>
+              <div class="skill-title-wrap">
+                <h4>MySQL &amp; Relational DB</h4>
+                <span class="skill-badge">Databases</span>
+              </div>
+            </div>
+            <p class="skill-desc">Relational schema design, normalization, complex SQL queries, tables, and data integrity.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 82%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-violet"><span class="skill-code">JDBC</span></div>
+              <div class="skill-title-wrap">
+                <h4>JDBC</h4>
+                <span class="skill-badge">Data Access</span>
+              </div>
+            </div>
+            <p class="skill-desc">Connecting Java applications to relational databases, executing prepared statements, and managing result sets.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 80%;"></div></div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-purple"><span class="skill-code">GIT</span></div>
+              <div class="skill-title-wrap">
+                <h4>Git &amp; GitHub</h4>
+                <span class="skill-badge">Version Control</span>
+              </div>
+            </div>
+            <p class="skill-desc">Branching, committing, pull requests, repository management, and code collaboration workflows.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-indigo"><span class="skill-code">IDE</span></div>
+              <div class="skill-title-wrap">
+                <h4>VS Code &amp; Eclipse</h4>
+                <span class="skill-badge">Development Tools</span>
+              </div>
+            </div>
+            <p class="skill-desc">Configuring build tasks, debuggers, compiler toolchains for C/C++, and workspace tooling for Java.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 88%;"></div></div>
+          </div>
+
+          <!-- Fundamentals -->
+          <div class="skill-card" data-category="fundamentals">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-violet"><span class="skill-code">DSA</span></div>
+              <div class="skill-title-wrap">
+                <h4>Data Structures &amp; Algorithms</h4>
+                <span class="skill-badge">Core CS</span>
+              </div>
+            </div>
+            <p class="skill-desc">Arrays, linked lists, trees, graphs, sorting, searching, recursion, and algorithmic complexity analysis.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="fundamentals">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-purple"><span class="skill-code">OOP</span></div>
+              <div class="skill-title-wrap">
+                <h4>Object-Oriented Programming</h4>
+                <span class="skill-badge">Design Paradigm</span>
+              </div>
+            </div>
+            <p class="skill-desc">Encapsulation, inheritance, polymorphism, abstraction, interfaces, and modular system architectures.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="fundamentals">
+            <div class="skill-header">
+              <div class="skill-icon-wrap bg-indigo"><span class="skill-code">SYS</span></div>
+              <div class="skill-title-wrap">
+                <h4>Computer Networks &amp; OS</h4>
+                <span class="skill-badge">Foundations</span>
+              </div>
+            </div>
+            <p class="skill-desc">Operating system concepts, memory management, process scheduling, and network protocols.</p>
+            <div class="skill-progress"><div class="skill-progress-bar" style="width: 80%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Selected Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            Hands-on academic projects spanning 2D game development, custom game engine architecture, and database-driven desktop software.
+          </p>
+
+          <!-- Project Filter Controls -->
+          <div class="project-filter-group" role="tablist">
+            <button class="proj-filter-btn active" data-filter="all">All Projects</button>
+            <button class="proj-filter-btn" data-filter="games">Game Dev &amp; Engine</button>
+            <button class="proj-filter-btn" data-filter="desktop">Desktop Applications</button>
+            <button class="proj-filter-btn" data-filter="future">Future Slots</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Project 1: Academic Apocalypse -->
+          <article class="project-card" data-category="games">
+            <div class="project-thumb-container">
+              <img src="assets/project-quest.jpg" alt="Academic Apocalypse 2D Game Preview" class="project-thumb" loading="lazy">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-light open-modal-btn" data-project="academic">Quick Preview</button>
+              </div>
+              <span class="category-tag">Game Development</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-year">Academic Project</span>
+                <span class="project-status">Completed</span>
+              </div>
+              <h3 class="project-title">Academic Apocalypse</h3>
+              <p class="project-excerpt">
+                A 2D game developed in C where players progress through eight semester-themed worlds while completing different challenges and mini-games.
+              </p>
+              <div class="project-tags">
+                <span>C</span>
+                <span>Raylib</span>
+                <span>2D Game Dev</span>
+                <span>Mini-Games</span>
+                <span>State Machines</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn-link-action open-modal-btn" data-project="academic">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <div class="external-links">
+                  <a href="https://github.com/lipglossuserr/academic-apocalypse" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="GitHub Repository" aria-label="GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  </a>
+                  <a href="https://github.com/lipglossuserr/academic-apocalypse" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="Project Details" aria-label="Project Details">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Aetna Game Engine -->
+          <article class="project-card" data-category="games">
+            <div class="project-thumb-container">
+              <img src="assets/project-aetna.jpg" alt="Aetna Game Engine Framework" class="project-thumb" loading="lazy">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-light open-modal-btn" data-project="aetna">Quick Preview</button>
+              </div>
+              <span class="category-tag">Game Engine</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-year">Academic Project</span>
+                <span class="project-status">Engine Framework</span>
+              </div>
+              <h3 class="project-title">Aetna Game Engine</h3>
+              <p class="project-excerpt">
+                A modular 2D game engine framework designed to provide reusable systems, game loops, and event-driven architectures for building games.
+              </p>
+              <div class="project-tags">
+                <span>C++</span>
+                <span>OOP Architecture</span>
+                <span>Game Loop</span>
+                <span>Event System</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn-link-action open-modal-btn" data-project="aetna">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <div class="external-links">
+                  <a href="https://github.com/Shira-yuki23/CookN" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="GitHub Repository" aria-label="GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  </a>
+                  <a href="https://github.com/Shira-yuki23/CookN" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="Project Details" aria-label="Project Details">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: CarbonDraw -->
+          <article class="project-card" data-category="games desktop">
+            <div class="project-thumb-container">
+              <img src="assets/project-carbondraw.jpg" alt="CarbonDraw Roguelike Game Preview" class="project-thumb thumb-contain" loading="lazy">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-light open-modal-btn" data-project="carbondraw">Quick Preview</button>
+              </div>
+              <span class="category-tag">Roguelike &amp; Climate-Action</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-year">Academic Project</span>
+                <span class="project-status">Featured Deck-Builder</span>
+              </div>
+              <h3 class="project-title">CarbonDraw</h3>
+              <p class="project-excerpt">
+                An educational climate-action roguelike deck-building game built with Java and JavaFX. Gamifies real-world climate solutions and Project Drawdown data.
+              </p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>JavaFX</span>
+                <span>Roguelike</span>
+                <span>Systems Thinking</span>
+                <span>Project Drawdown</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn-link-action open-modal-btn" data-project="carbondraw">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <div class="external-links">
+                  <a href="https://github.com/Yakiyo/carbondraw" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="GitHub Repository" aria-label="GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  </a>
+                  <a href="https://github.com/Yakiyo/carbondraw" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="Project Details" aria-label="Project Details">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: JavaFX Movie Browser -->
+          <article class="project-card" data-category="desktop">
+            <div class="project-thumb-container">
+              <img src="assets/project-movie.jpg" alt="JavaFX Movie Browser Application" class="project-thumb" loading="lazy">
+              <div class="project-overlay">
+                <button class="btn btn-sm btn-light open-modal-btn" data-project="movie">Quick Preview</button>
+              </div>
+              <span class="category-tag">Desktop Application</span>
+            </div>
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-year">Academic Project</span>
+                <span class="project-status">Desktop App</span>
+              </div>
+              <h3 class="project-title">JavaFX Movie Browser</h3>
+              <p class="project-excerpt">
+                A JavaFX-based desktop movie browsing application connected to a MySQL database for storing and retrieving movie details and posters.
+              </p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>JavaFX</span>
+                <span>FXML</span>
+                <span>MySQL</span>
+                <span>JDBC</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn-link-action open-modal-btn" data-project="movie">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <div class="external-links">
+                  <a href="https://github.com/arshiyahera" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="GitHub Repository" aria-label="GitHub Repository">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  </a>
+                  <a href="https://github.com/arshiyahera" target="_blank" rel="noopener noreferrer" class="icon-action-btn" title="Project Details" aria-label="Project Details">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Future Project Slot 01 -->
+          <div class="project-card placeholder-card" data-category="future">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"/>
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                </svg>
+              </div>
+              <span class="category-tag">Future Project 01</span>
+              <h3 class="placeholder-title">Coming Soon</h3>
+              <p class="placeholder-desc">
+                A new project will be added here as development progresses.
+              </p>
+              <button class="btn btn-sm btn-outline-purple open-modal-btn" data-project="future1">Project Slot</button>
+            </div>
+          </div>
+
+          <!-- Future Project Slot 02 -->
+          <div class="project-card placeholder-card" data-category="future">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <span class="category-tag">Future Project 02</span>
+              <h3 class="placeholder-title">Coming Soon</h3>
+              <p class="placeholder-desc">
+                Currently exploring and building something new in algorithms and software systems.
+              </p>
+              <button class="btn btn-sm btn-outline-purple open-modal-btn" data-project="future2">Project Slot</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Academic Journey</span>
+          <h2 class="section-title">Education &amp; Focus</h2>
+          <p class="section-description">
+            Building solid mathematical, algorithmic, and software engineering foundations at Islamic University of Technology.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-track">
+            <!-- Education Milestone -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <span class="timeline-badge">Current &bull; 4th Semester</span>
+                  <span class="timeline-date">B.Sc. Undergraduate</span>
+                </div>
+                <h3 class="timeline-role">Bachelor of Science in Computer Science &amp; Engineering</h3>
+                <h4 class="timeline-org">Islamic University of Technology (IUT)</h4>
+                <p class="timeline-text">
+                  Enrolled in the comprehensive CSE program covering theoretical foundations, algorithms, object-oriented software engineering, database architectures, and systems programming.
+                </p>
+                <div class="timeline-chips">
+                  <span>Data Structures &amp; Algorithms</span>
+                  <span>Object-Oriented Programming</span>
+                  <span>Database Systems</span>
+                  <span>Computer Networks</span>
+                  <span>Digital Logic</span>
+                  <span>Probability &amp; Statistics</span>
+                  <span>System Analysis &amp; Design</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Current Focus Milestone -->
+            <div class="timeline-item">
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="timeline-card">
+                <div class="timeline-header">
+                  <span class="timeline-badge">Academic &amp; Project Track</span>
+                  <span class="timeline-date">Ongoing</span>
+                </div>
+                <h3 class="timeline-role">Academic &amp; Personal Project Development</h3>
+                <h4 class="timeline-org">Independent &amp; Coursework Engineering</h4>
+                <p class="timeline-text">
+                  Currently focused on academic projects, programming, problem solving, and building practical software applications. Applying object-oriented principles, modular architecture, and algorithmic design across C, C++, and Java projects.
+                </p>
+                <div class="timeline-chips">
+                  <span>C &amp; Raylib</span>
+                  <span>C++ Game Engines</span>
+                  <span>JavaFX Desktop Apps</span>
+                  <span>Competitive Programming Practice</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Currently Exploring & Highlights Section -->
+    <section class="section achievements-section" id="exploring">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Areas of Interest &amp; Practice</span>
+          <h2 class="section-title">Currently Exploring</h2>
+          <p class="section-description">
+            Active areas of exploration, algorithmic problem solving practice, and key academic project milestones.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Item 1: Currently Exploring -->
+          <div class="achievement-card">
+            <div class="achieve-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+              </svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-type">Areas of Exploration</div>
+              <h3 class="achieve-title">Software Development &amp; Game Architecture</h3>
+              <p class="achieve-desc">
+                Exploring areas of software development, algorithms, game development, and interactive applications. Experimenting with modular systems, game loops, and responsive interfaces.
+              </p>
+              <div class="achieve-meta">
+                <span>Interactive Applications</span>
+                <span>System Architecture</span>
+                <span>Game Dev</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Problem Solving -->
+          <div class="achievement-card">
+            <div class="achieve-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-type">Problem Solving Practice</div>
+              <h3 class="achieve-title">Competitive Programming &amp; Algorithms</h3>
+              <p class="achieve-desc">
+                Consistent practice with data structures, algorithmic techniques, and computational problem solving on Codeforces and online programming practice platforms.
+              </p>
+              <div class="achieve-meta">
+                <span>Competitive Programming</span>
+                <span>Data Structures</span>
+                <span>Codeforces</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Academic Highlights -->
+          <div class="achievement-card">
+            <div class="achieve-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <div class="achieve-content">
+              <div class="achieve-type">Academic Highlights</div>
+              <h3 class="achieve-title">Practical Multi-Stack Projects</h3>
+              <p class="achieve-desc">
+                Developed multiple academic software projects: a 2D game in C with Raylib, an object-oriented C++ game engine framework, and a database-integrated JavaFX application with MySQL.
+              </p>
+              <div class="achieve-meta">
+                <span>C / Raylib</span>
+                <span>C++ OOP</span>
+                <span>JavaFX &amp; MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bold Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-grid">
+            <!-- Contact Left Column -->
+            <div class="contact-info-col">
+              <span class="section-subtitle text-purple-light">Get In Touch</span>
+              <h2 class="contact-title">Let's connect &amp; collaborate.</h2>
+              <p class="contact-description">
+                I'm currently open to internship opportunities, academic projects, and software collaborations. Feel free to reach out via email or connect with me on GitHub and LinkedIn!
+              </p>
+
+              <div class="contact-details-list">
+                <div class="contact-detail-item">
+                  <div class="detail-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <div class="detail-label">Personal Email</div>
+                    <div class="detail-val-row">
+                      <span class="detail-val" id="emailAddress">arshiya.hera@gmail.com</span>
+                      <button class="copy-btn" id="copyEmailBtn" aria-label="Copy Personal Email" title="Copy to clipboard">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="detail-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                  </div>
+                  <div>
+                    <div class="detail-label">IUT Academic Email</div>
+                    <div class="detail-val-row">
+                      <span class="detail-val" id="iutEmailAddress">arshiyasaryn@iut-dhaka.edu</span>
+                      <button class="copy-btn" id="copyIutEmailBtn" aria-label="Copy IUT Email" title="Copy to clipboard">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="detail-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <div class="detail-label">Current Location</div>
+                    <div class="detail-val">Bangladesh (Open to Remote &amp; Collaborations)</div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="detail-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                  </div>
+                  <div>
+                    <div class="detail-label">Institution</div>
+                    <div class="detail-val">Islamic University of Technology (IUT)</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links-row">
+                <a href="https://github.com/arshiyahera" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="GitHub Profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-chip" aria-label="LinkedIn Profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="mailto:arshiya.hera@gmail.com" class="social-chip" aria-label="Email Directly">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <span>Email</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactName">Your Name</label>
+                    <input type="text" id="contactName" name="name" placeholder="Your Name" required>
+                    <span class="field-error" id="nameError">Please enter your name</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">Your Email</label>
+                    <input type="email" id="contactEmail" name="email" placeholder="name@company.com" required>
+                    <span class="field-error" id="emailError">Please enter a valid email</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactSubject">Subject</label>
+                  <input type="text" id="contactSubject" name="subject" placeholder="Internship Opportunity / Project Collaboration" required>
+                  <span class="field-error" id="subjectError">Please provide a subject</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage">Your Message</label>
+                  <textarea id="contactMessage" name="message" rows="5" placeholder="Hi Arshiya, I came across your portfolio and wanted to connect regarding..." required></textarea>
+                  <span class="field-error" id="messageError">Please enter your message (min. 15 characters)</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="submitFormBtn">
+                  <span>Send Message</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"/>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo-badge">AH</div>
+        <div>
+          <div class="footer-name">Arshiya Hera &bull; CSE Student</div>
+          <div class="footer-tagline">Building creative software, game architectures &amp; practical systems.</div>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#exploring">Exploring</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Arshiya Hera. Islamic University of Technology (IUT). Built with Vanilla HTML, CSS &amp; JavaScript.</p>
+        <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top of page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Project Modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Content will be injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="main.js"></script>
+</body>
+</html>
