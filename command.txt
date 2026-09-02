@@ -1,0 +1,612 @@
+BUILD THE PORTFOLIO WEBSITE NOW.
+
+IMPORTANT:
+I ALREADY HAVE an existing portfolio project with:
+- index.html
+- style.css
+- assets/
+
+DO NOT start from scratch.
+DO NOT replace my existing design unnecessarily.
+FIRST inspect my existing index.html, style.css, and assets folder and understand what is already implemented.
+
+I want you to COMPLETE and POLISH the portfolio based on the following design direction.
+
+==================================================
+OVERALL DESIGN
+==================================================
+
+Use the "Brooklyn-inspired" portfolio layout as visual inspiration, but DO NOT directly copy it.
+
+The website should feel:
+- modern
+- clean
+- spacious
+- professional
+- student/developer focused
+- visually impressive
+- responsive
+- interactive
+- easy to maintain
+
+Color direction:
+- off-white / very light background
+- purple / violet as the primary accent
+- subtle indigo gradients
+- dark charcoal text
+- soft gray secondary text
+- purple-tinted cards
+- no excessive gradients
+- no overly dark navbar
+
+Typography:
+- modern clean sans-serif
+- strong large headings
+- comfortable line spacing
+- clear visual hierarchy
+
+==================================================
+NAVBAR
+==================================================
+
+Create/refine a light/off-white navbar.
+
+Requirements:
+- Sticky navbar
+- Small circular purple "AH" logo badge
+- Brand name: AH.dev
+- Navigation:
+  Home
+  About
+  Skills
+  Projects
+  Education
+  Achievements
+  Contact
+- Smooth scrolling
+- Active navigation indicator
+- Mobile hamburger menu
+- Navbar should slightly change/shadow when scrolling
+
+Do NOT use a solid black navbar.
+
+==================================================
+HERO SECTION
+==================================================
+
+Create a strong hero section.
+
+Left side:
+- availability badge:
+  "Open to Internships & Collaborations"
+- Name:
+  "Arshiya Hera"
+- Main headline:
+  "Computer Science Student Building Creative & Practical Software"
+- Short professional introduction
+- Specialty tags:
+  Software Development
+  Algorithms & Problem Solving
+  Game Development
+  Java / C / C++
+
+Buttons:
+1. "Explore Projects"
+2. "Get in Touch"
+
+Right side:
+- Use my existing profile image from assets if available.
+- DO NOT generate a fake person.
+- Do not replace my actual photo.
+- Put the photo inside a rounded-square container.
+- Add a subtle purple gradient blob behind it.
+- Add subtle floating/slow animation.
+- Keep the photo professional and properly cropped.
+
+==================================================
+HERO STAT CARDS
+==================================================
+
+At the bottom of the hero, create 3 cards that slightly overlap/straddle the next section.
+
+Use:
+
+CARD 1
+Number: 4th
+Label: Semester
+Subtext: B.Sc. in Computer Science & Engineering — IUT
+
+CARD 2
+Number: 5+
+Label: Projects
+Subtext: Games, software systems & academic projects
+
+CARD 3
+Number: 8+
+Label: Technologies
+Subtext: Programming, databases, frameworks & development tools
+
+Cards should:
+- have subtle purple tint
+- have rounded corners
+- have soft shadows
+- lift slightly on hover
+- animate into view
+
+==================================================
+ABOUT SECTION
+==================================================
+
+Create an interactive About section with 3 tabs:
+
+TAB 1:
+"Overview"
+
+Content should describe me as a Computer Science & Engineering student at the Islamic University of Technology (IUT), interested in software development, algorithms, game development and practical problem solving.
+
+Include:
+- Location: Bangladesh
+- Degree: B.Sc. in Computer Science & Engineering
+- University: Islamic University of Technology (IUT)
+- Current standing: 4th Semester
+
+Add 3 competency cards:
+
+1. Software Development
+Building practical applications and software systems.
+
+2. Algorithms & Problem Solving
+Data structures, algorithms and computational thinking.
+
+3. Interactive Application Development
+Games, desktop applications and interactive software.
+
+TAB 2:
+"Engineering Philosophy"
+
+Use:
+01 — Simplicity over Complexity
+02 — Learn by Building
+03 — Continuous Curiosity
+
+TAB 3:
+"Key Highlights"
+
+Use factual highlights based on my existing project information.
+
+DO NOT invent:
+- awards
+- internships
+- publications
+- CGPA
+- companies
+- achievements
+
+==================================================
+SKILLS SECTION
+==================================================
+
+Create an interactive skills section.
+
+Categories:
+
+ALL
+
+LANGUAGES:
+- C
+- C++
+- Java
+- JavaScript
+- HTML
+- CSS
+
+FRONTEND & UI:
+- HTML5
+- CSS3
+- JavaFX
+- FXML
+- Responsive Web Design
+
+BACKEND & DATABASE:
+- MySQL
+- JDBC
+
+TOOLS:
+- Git
+- GitHub
+- VS Code
+- Eclipse
+
+CORE CS:
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- Database Management
+- Computer Networks
+- Operating Systems
+- System Analysis & Design
+- Competitive Programming
+
+Create filter buttons.
+
+When a filter is selected, only relevant skill cards should display.
+
+Add:
+- icons where appropriate
+- progress/skill indicators if they fit the design
+- hover animations
+- reveal animations
+
+Do not exaggerate skill levels.
+
+==================================================
+PROJECTS SECTION
+==================================================
+
+Create a professional project showcase.
+
+Projects currently available:
+
+PROJECT 1
+Title:
+Academic Apocalypse
+
+Technology:
+C, Raylib
+
+Description:
+A 2D academic-themed game featuring semester-based worlds and multiple interactive mini-games.
+
+Features:
+- 8 semester worlds
+- top-down maze
+- quiz challenge
+- coffee drag-and-drop mini-game
+- ATM/salary mini-games
+
+Repository:
+https://github.com/lipglossuserr/academic-apocalypse
+
+PROJECT 2
+Title:
+Aetna Game Engine
+
+Technology:
+C++, OOP Architecture
+
+Description:
+A modular 2D game engine framework focused on reusable systems and game architecture.
+
+Features:
+- game loop
+- event dispatcher
+- modular architecture
+- reusable systems
+
+Repository:
+https://github.com/Shira-yuki23/CookN
+
+PROJECT 3
+Title:
+CarbonDraw
+
+Technology:
+Java, JavaFX
+
+Description:
+A climate-action roguelike deck-builder inspired by Project Drawdown.
+
+Features:
+- climate-action concepts
+- technology/policy synergies
+- systems-thinking gameplay
+- JavaFX interface
+
+Repository:
+https://github.com/Yakiyo/carbondraw
+
+PROJECT 4
+Title:
+JavaFX Movie Browser
+
+Technology:
+Java, JavaFX, FXML, MySQL, JDBC
+
+Description:
+A desktop movie catalog application connected to a MySQL database.
+
+Features:
+- movie browsing
+- database persistence
+- JavaFX UI
+- FXML/CSS styling
+
+If the actual repository URL is not known, DO NOT invent one.
+
+==================================================
+PROJECT CARD DESIGN
+==================================================
+
+Each project card should contain:
+
+- project image from assets if available
+- category
+- project title
+- short description
+- technology tags
+- View Details button
+- GitHub button
+
+When "View Details" is clicked:
+open a modal containing:
+- title
+- description
+- technologies
+- features
+- GitHub link
+- close button
+
+Add smooth modal animations.
+
+Add 2 placeholder cards:
+
+"Coming Soon"
+"Future Project"
+
+Make them visually consistent but clearly indicate that they are placeholders.
+
+==================================================
+EDUCATION SECTION
+==================================================
+
+Create a vertical timeline.
+
+Current education:
+
+Bachelor of Science in Computer Science & Engineering
+Islamic University of Technology (IUT)
+Current: 4th Semester
+
+Relevant coursework:
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- Database Systems
+- Computer Networks
+- Digital Logic
+- Probability & Statistics
+- System Analysis & Design
+
+DO NOT invent:
+- CGPA
+- GPA
+- graduation date if it isn't already in my files
+- scholarships
+- academic awards
+
+==================================================
+ACHIEVEMENTS / RESEARCH
+==================================================
+
+Create a section for achievements/research ONLY using information that actually exists in my project files.
+
+If there are no verified awards/publications:
+DO NOT invent any.
+
+Instead create useful sections such as:
+
+"Currently Exploring"
+- Software Engineering
+- Algorithms & Problem Solving
+- Game Architecture
+- Competitive Programming
+
+"Academic & Project Highlights"
+
+Use my actual projects as examples.
+
+==================================================
+CONTACT SECTION
+==================================================
+
+Create a strong final contact section.
+
+Include:
+- Email
+- Bangladesh
+- Open to collaborations/internships
+
+GitHub:
+https://github.com/arshiyahera
+
+LinkedIn:
+Use my actual LinkedIn only if it exists in my existing files.
+Otherwise use a clearly marked placeholder and tell me that I need to replace it.
+
+IMPORTANT:
+DO NOT use fake email addresses such as:
+arshiya.hera@example.com
+
+If my real email isn't available, use:
+"Add your email here"
+
+Create:
+- Email button
+- GitHub button
+- LinkedIn button
+- Copy Email button
+
+The Copy Email button should use JavaScript clipboard functionality.
+
+==================================================
+JAVASCRIPT
+==================================================
+
+If main.js does not exist, CREATE IT.
+
+Implement:
+
+1. Mobile navigation
+2. Smooth scrolling
+3. Sticky navbar behavior
+4. Active navigation highlighting
+5. About tabs
+6. Skills filtering
+7. Project filtering if appropriate
+8. Project detail modals
+9. Modal close functionality
+10. Escape key closes modal
+11. Scroll reveal animations
+12. Animated statistics
+13. Copy email functionality
+14. Contact form validation
+15. Toast notifications
+16. Back-to-top button
+17. Any other small interaction that improves UX
+
+Use VANILLA JAVASCRIPT.
+
+Do not add React, Vue, Angular, or another framework unless my existing project already uses one.
+
+==================================================
+RESPONSIVENESS
+==================================================
+
+The website MUST work properly on:
+
+- desktop
+- laptop
+- tablet
+- mobile
+
+Pay special attention to:
+- navbar
+- hero layout
+- profile image
+- stat cards
+- project cards
+- modal
+- skills grid
+- timeline
+- contact section
+
+On mobile:
+- navbar becomes hamburger
+- hero becomes single column
+- stat cards stack appropriately
+- project cards become single column
+- text remains readable
+- no horizontal scrolling
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Add:
+- semantic HTML
+- alt text for images
+- keyboard accessible buttons
+- visible focus states
+- proper heading hierarchy
+- aria labels where appropriate
+- sufficient contrast
+
+==================================================
+IMPORTANT ASSET RULES
+==================================================
+
+FIRST inspect the existing assets folder.
+
+Use existing images whenever possible.
+
+Do NOT unnecessarily generate replacement images.
+
+Do NOT delete my existing assets.
+
+Make sure every image path matches the actual filename and capitalization.
+
+For example:
+
+assets/profile.jpg
+
+must be referenced exactly as:
+
+assets/profile.jpg
+
+not:
+
+assets/Profile.jpg
+
+==================================================
+CODE QUALITY
+==================================================
+
+Keep the project simple.
+
+Use:
+
+index.html
+style.css
+main.js
+assets/
+
+Do not create unnecessary frameworks or dependencies.
+
+Use CSS variables for colors.
+
+Organize CSS into logical sections.
+
+Use comments for major sections.
+
+Keep JavaScript modular and readable.
+
+Do not put huge amounts of JavaScript directly inside index.html.
+
+==================================================
+VERY IMPORTANT — EXISTING FILES
+==================================================
+
+Before modifying anything:
+
+1. Read index.html.
+2. Read style.css.
+3. Inspect assets/.
+4. Identify what is already implemented.
+5. Preserve useful existing work.
+6. Modify rather than unnecessarily replacing.
+7. Create main.js if needed.
+
+If index.html and style.css already contain most of the design, improve them instead of rebuilding them from zero.
+
+==================================================
+FINAL TESTING
+==================================================
+
+After building:
+
+1. Run the website locally.
+2. Check for HTML errors.
+3. Check CSS errors.
+4. Check JavaScript errors.
+5. Check every navigation link.
+6. Check every project modal.
+7. Check mobile navigation.
+8. Check all images.
+9. Check that there are no broken asset paths.
+10. Check that there are no localhost URLs in the final code.
+11. Check that there are no fake personal details.
+12. Check that no SAVORIA information exists.
+13. Check that no fake CGPA/GPA exists.
+14. Check that no fake internship/award/publication exists.
+
+Then give me a final report containing:
+
+- files created
+- files modified
+- features implemented
+- any information I still need to provide
+- any broken/missing links
+- how to run the website locally
+- exact Git commands I need to push the final version to GitHub
+
+DO NOT stop at creating a plan.
+
+ACTUALLY BUILD THE CODE AND TEST IT.
